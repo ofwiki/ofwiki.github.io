@@ -6,7 +6,7 @@
 	</head> 
 	<body>
 		<script>
-			window.location.href="http://www.my-lin.cn"+location.search.replaceAll(“?”,“/”);
+			window.location.href="http://www.my-lin.cn"+location.search.replace(/\?/g,“/”);
 		</script>
 	</body> 
 </html>
